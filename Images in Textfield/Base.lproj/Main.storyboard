@@ -24,16 +24,18 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="nnw-6f-dT7"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="39"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="0.0"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="UserName" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fFd-sZ-CIs" customClass="DesignableTextfield" customModule="Images_in_Textfield" customModuleProvider="target">
-                                <rect key="frame" x="30" y="239" width="354" height="40"/>
+                                <rect key="frame" x="30" y="230" width="354" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="0.88679901541095896" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="M5G-UZ-IP8"/>
+                                    <constraint firstAttribute="height" constant="50" id="PO7-Cu-qdY"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -48,11 +50,11 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yT7-hl-yv6" customClass="DesignableTextfield" customModule="Images_in_Textfield" customModuleProvider="target">
-                                <rect key="frame" x="30" y="304" width="354" height="40"/>
+                                <rect key="frame" x="30" y="305" width="354" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="0.88679901539999995" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="Agl-Ay-Qyb"/>
+                                    <constraint firstAttribute="height" constant="50" id="Q0p-pg-FB0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -69,19 +71,19 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="fFd-sZ-CIs" firstAttribute="top" secondItem="Zwb-wE-kPh" secondAttribute="bottom" constant="125" id="2Wz-xG-LOL"/>
-                            <constraint firstItem="fFd-sZ-CIs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="4sd-gY-rit"/>
+                            <constraint firstItem="yT7-hl-yv6" firstAttribute="top" secondItem="fFd-sZ-CIs" secondAttribute="bottom" constant="25" id="5ly-sY-Xdn"/>
                             <constraint firstItem="VTA-Xj-l80" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5qd-Zf-ohS"/>
                             <constraint firstItem="VTA-Xj-l80" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Abr-uB-B7v"/>
-                            <constraint firstItem="yT7-hl-yv6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="EEV-tj-3Ud"/>
+                            <constraint firstItem="yT7-hl-yv6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="F1b-MI-LDA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VTA-Xj-l80" secondAttribute="bottom" id="IFR-n1-06q"/>
                             <constraint firstItem="Zwb-wE-kPh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Lv1-I3-7OZ"/>
+                            <constraint firstItem="fFd-sZ-CIs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="NnV-Lf-3sg"/>
                             <constraint firstItem="Zwb-wE-kPh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="T9f-Om-bs1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VTA-Xj-l80" secondAttribute="trailing" id="YOo-GC-rMM"/>
-                            <constraint firstItem="yT7-hl-yv6" firstAttribute="top" secondItem="fFd-sZ-CIs" secondAttribute="bottom" constant="25" id="gZW-jJ-c0g"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yT7-hl-yv6" secondAttribute="trailing" constant="30" id="thu-o3-v6b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yT7-hl-yv6" secondAttribute="trailing" constant="30" id="Yrd-2P-ofh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fFd-sZ-CIs" secondAttribute="trailing" constant="30" id="pUb-Te-qy2"/>
+                            <constraint firstItem="fFd-sZ-CIs" firstAttribute="top" secondItem="Zwb-wE-kPh" secondAttribute="bottom" constant="116" id="sY8-LD-fPe"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zwb-wE-kPh" secondAttribute="trailing" id="xLb-Dn-8Ag"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fFd-sZ-CIs" secondAttribute="trailing" constant="30" id="zQV-bP-gBt"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
